@@ -1,0 +1,64 @@
+More granularity of the course as follows:
+
+Binomial Pricer
+Cox-Ross-Rubinstein Procedure for Binomial Model Pricing
+Functions, Pointers, Function Pointers
+Classes, Inheritance, Virtual Functions
+American Options
+Multiple Inheritance
+Virtual Inheritance
+Class Templates
+Monte-Carlo Methods
+Path-dependent Options
+Pricing Error
+Greek Parameters
+Variance Reduction
+Path-dependent Basket Options
+Non-linear solvers
+Implied volatility
+Bisection method
+Newton-Raphson method
+Function pointers
+Virtual inheritance
+Computing implied volatility
+Introduction to interest rate concepts and Yield Curve Construction: Bootstrapping and interpolation:
+Simply and Continuously compounded interest rates
+Relationship between yield and inst forward rates
+Zero-Coupon Bonds, Coupon Bearing Bonds, Swaps
+Swaps as stochastic weighted sums of forward rates
+1. Linear in “yield*T)” (= R(0,T)*T)
+2. Linear in “yield” ( = R(0,T) )
+3. Linear in “log Rate” ( = log R(0,T) )
+4. Linear in “Discount Factors”
+Tension Splines, Cubic Splines
+C++ coding for all the above Yield Curve Construction methodologies
+Short Rate Modeling
+Merton, Vasicek, Hull-White (HW) one-factor.
+Bond pricing/calibration
+Caplet pricing as Option on Bond
+Swaption Pricing – Jamshidian’s trick
+Multi-factor HW
+Shape of the yield curve
+C++ coding of European option pricing on one and multi-factor HW.
+Forward Rate modeling Heath-Jarrow-Merton model (HJM)
+Libor volatility in terms of forward rate volatilities - Repricing of Caplets through Libor volatility and agreement with HW short-rate models.
+Separability of volatility and Markovian representation of state variables.
+Cheyette model
+C++ pricing of Options
+Libor Market Model
+Numeraire – Spot, Terminal measures
+Drift equations
+Lognormal, CEV, and Displaced Diffusion Dynamics of Libors
+Libor evolution
+C++ Coding of Evolution of Libors. Calculation of Libors at reset times
+PCA – Principal Component analysis and rank reduction of the model
+Stochastic Volatility
+Markov Functional Models
+Explanation of the model details
+Calculation of convexity adjustment at reset times
+C++ code for convexity calculation
+Option Pricing in Monte-Carlo Routine.
+Extraction of the Implied Volatility Skew/Smile from SABR, CEV, and Normal models.
+Option pricing C++ code for early exercise
+Inflation, Stochastic spread yield curves, Local Volatility modeling etc if time allows.
+SABR model / Option Hedging in Discrete and continuous time.
